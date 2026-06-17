@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 
@@ -55,20 +56,20 @@ public class day10 {
 */
 
 
-        static void process(LinkedList<String> list) {
-            System.out.println("Removed : " + list.removeFirst());
-        }
+ /*  static void process(LinkedList<String> list) {
+        System.out.println("Removed : " + list.removeFirst());
+    }
 
-        public static void main(String[] args) {
+    public static void main(String[] args) {
 
-            LinkedList<String> list = new LinkedList<>();
+        LinkedList<String> list = new LinkedList<>();
 
-            // Add 5 students
-            list.add("101 - poorani- 85");
-            list.add("102 - supriya- 78");
-            list.add("103 - reymanth- 90");
-            list.add("104 - pradhish - 88");
-            list.add("105 - madhu- 75");
+        // Add 5 students
+        list.add("101 - poorani- 85");
+        list.add("102 - supriya- 78");
+        list.add("103 - reymanth- 90");
+        list.add("104 - pradhish - 88");
+        list.add("105 - madhu- 75");
 
             System.out.println("Student List:");
             System.out.println(list);
@@ -91,3 +92,25 @@ public class day10 {
             System.out.println(list);
         }
     }
+   */
+
+
+static void main(){
+    String name=null;
+    try{
+        System.out.println(name.charAt(0));
+        System.out.println(24/0);
+    }catch(ArithmeticException e){
+        System.out.println("Arithmetic Exception");
+    }catch (ArrayIndexOutOfBoundsException e){
+        System.out.println("Array Index Out OfBounds Exception" );
+    }catch(Exception e){
+        System.out.println("Exception");
+}finally{
+        System.out.println("this will always excute");
+        name="";
+    }
+    System.out.println("still running");
+    System.out.println("name:"+name);
+    }
+}
