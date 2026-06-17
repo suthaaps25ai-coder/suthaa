@@ -1,9 +1,9 @@
 
-import java.util.ArrayList;
+/*import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class day10 {
-    /*  static void main(){
+     static void main(){
           String[]student={"pradhish","surya","suthaa","poorani","ram"};
           System.out.println(student.length);
           ArrayList<String>list=new ArrayList();
@@ -95,7 +95,7 @@ public class day10 {
    */
 
 
-static void main(){
+/*static void main(){
     String name=null;
     try{
         System.out.println(name.charAt(0));
@@ -114,3 +114,4 @@ static void main(){
     System.out.println("name:"+name);
     }
 }
+*/
